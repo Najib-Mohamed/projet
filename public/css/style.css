@@ -1,0 +1,70 @@
+@media screen and (min-width: 600px) {
+    .image{
+
+    }
+    
+}
+
+.image {
+    background-image: url("../img/bg-pattern-intro-desktop.svg");
+    background-size: 100%;
+    background-position: right;
+    width: 100%;
+    padding-right: 40%;
+    
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: verdana;
+}
+
+#navbare {
+    width: 100%;
+    height: 100px;
+    background-size: cover;
+}
+
+nav {
+    width: 100%;
+    height: 400px;
+    background-color: hsl(355, 62%, 58%);
+    line-height: 50px;
+    border-bottom-left-radius: 80px;
+}
+
+#gauche {
+    float: left;
+    margin-left: 30px;
+}
+
+nav ul li {
+    list-style-type: none;
+    display: inline-block;
+    transition: 0.7s all;
+}
+#droite{
+       float: right;
+       margin-right: 30px; 
+}
+
+nav ul li:hover {
+    background-color: rgb(158, 55, 64);
+    border-radius: 80px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    padding: 30px;
+}
+.titre1{
+padding-top: 10%;
+padding-left: 40%;
+color: white;
+}
+.textTop{
+    color: #fff;
+    padding-left : 40%;
+}
