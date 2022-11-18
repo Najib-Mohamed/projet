@@ -79,3 +79,34 @@
 .grid-col a:hover {
     text-decoration: underline;
 }
+
+@media (max-width: 375px) { 
+    #section2 { 
+        width: 1000px;
+        height: 1500px;
+        border-bottom-left-radius: 200px;
+        border-top-right-radius: 200px; 
+    }
+
+    #img-phone {
+        width: 1000px;
+        margin-left: -10px;
+        margin-top: -475px
+    }
+
+    #img-circle {
+        width: 1650px;
+        margin-left: -320px;
+        margin-top: -650px;
+    }
+    
+    #section2-div-text {
+        text-align: center;
+        line-height: 48px;
+        font-size: 40px;
+        margin: 100px;
+    }
+
+
+    
+}
