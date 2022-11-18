@@ -132,5 +132,15 @@
         margin-left: 20px;
     }
 
-    
+    .grid-row {
+        width: 860px;
+        line-height: 85px;
+        display: inline-block;
+        grid-template-columns: 25% 25% 25% 25%;
+        background-color: hsl(240, 10%, 16%);
+        padding: 70px;
+    }
+    .grid-col {
+        font-size: 40px;
+    }
 }
