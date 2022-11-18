@@ -33,8 +33,9 @@
     padding-left: -100px;
 }
 
-#section3 {
-    
+#section3 img{
+    width: 1000px;
+    margin: 120px 0px 120px -280px;
 }
 
 .grid-row {
